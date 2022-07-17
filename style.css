@@ -1,0 +1,247 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-1 {
+    background-image: url("photos/header-bg.png");
+    height: 140vh;
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    width: 100%;
+}
+
+
+.header-text {
+    height: 40vh;
+}
+
+.header-text h1 {
+    font-family: 'Square Peg', cursive;
+    text-align: center;
+    font-size: 10em;
+    color: white;
+    margin-top: 1em;
+}
+
+.header-text-p {
+    text-align: center;
+    margin-top: -2em;
+    color: white;
+}
+
+.header-text-p2 {
+    text-align: center;
+}
+
+.social-media-div a i {
+    color: black;
+}
+
+.about-us-div img {
+    width: 100%;
+    margin: 0;
+    padding: 3em;
+}
+
+.about-us-div h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.about-us-div p {
+    column-count: 2;
+    font-size: 0.8em;
+}
+/* } responsivede padding ayarlanacak */
+
+.our-taste {
+    background-image: linear-gradient(#ffff, #fff9ea);
+}
+
+.img-1 {
+    margin: 5em;
+    padding: 0;
+    width: 100%;
+}
+
+
+.coffie-cup {
+    background-image: url("photos/coffie-glass.png");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+}
+
+.gorus-1 {
+    font-family: 'Water Brush', cursive;
+    text-align: center;
+    width: 20em;
+}
+
+.name-surname {
+    text-align: center;
+}
+
+.name-surname img {
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.name-surname p {
+    display: inline-block;
+    z-index: -1;
+}
+
+.bg-2 {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0pt;
+    background-color: #fff9ea;
+}
+
+.img-4 {
+    width: 40em;
+    z-index: 2;
+    position: relative;
+}
+
+.p-tag {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    width: 35em;
+    color: #fff9ea;
+    padding: 1em;
+    padding-top: 18em;
+}
+
+.yorum {
+    background-color: #fff9ea;
+}
+
+.p-tag h1 {
+    font-family: 'Square Peg';
+}
+.img-5 {
+    background-color: #fff9ea;
+    z-index: -3;
+} 
+
+.calisma-sekli h1 {
+    font-family: 'Water Brush', cursive;
+    margin-top: 2em;
+}
+
+.footer-1   {
+    background-image: url("photos/footer-bg.png");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.footer-one {
+    height: 35vh;
+}
+
+.blog {
+    background-color: #fff9ea;
+}
+
+footer {
+    background-color: #fff9ea;
+}
+
+.navbar-mobile {
+    visibility: hidden;
+}
+
+/* responsive */
+@media (max-width:768px) {
+    .img-1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .nav-1 {
+        visibility: hidden;
+        height: 0px;
+    }
+    .header-text h1 {
+        font-size: 6em;
+    }
+    .header-1 {
+        height: 100vh;
+    }
+    .gorus-1 {
+        font-size: 0.5em;
+        width: 10em;
+    }
+    .p-tag {
+        width: 100%;
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+    .p-tag p {
+        font-size: 0.8em;
+    }
+    .p-tag-bg {
+        background-color: #dba729;
+    }
+    .img-4 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+    }
+    .bg-2 {
+        visibility: hidden;
+    }
+    .tanitim {
+        background-color: #fff9ea;
+        margin-top: 5em;
+    }
+    .tx-1 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        padding-left: 2em;
+    }
+    .about-us-div p {
+        column-count: auto;
+    }
+    .a-md-1 {
+        margin: 0;
+        padding: 0;
+    }
+    .img-coffe-1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+.how-work-text {
+    background-color: #fff9ea;
+}
+.navbar-mobile {
+    visibility: visible;
+}
+.footer-one {
+    max-height: 30em;
+}
+.img-4 {
+    visibility: hidden;
+    height: 0px;
+}
+.img-4-div {
+    visibility: hidden;
+    height: 0;
+}
+}
+
+
+
